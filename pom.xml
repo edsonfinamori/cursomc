@@ -12,6 +12,7 @@
 	<groupId>com.educandoweb</groupId>
 	<artifactId>cursomc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>cursomc</name>
 	<description>Projeto Spring Boot</description>
 	<properties>
