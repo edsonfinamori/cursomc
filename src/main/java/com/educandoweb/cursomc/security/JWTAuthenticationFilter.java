@@ -54,6 +54,8 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 		res.addHeader("Authorization", "Bearer " + token);
 	}
 	
+	//A classe abaixo e necessaria com Spring Boot versao 2.x.x
+	
 	private class JWTAuthenticationFailureHandler implements AuthenticationFailureHandler {
 		 
         @Override
