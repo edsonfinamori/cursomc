@@ -43,7 +43,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 			return auth;
 		}
 		catch(IOException e) {
-			throw new RuntimeException();
+			throw new RuntimeException(e);
 		}
 	}
 	
